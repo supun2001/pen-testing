@@ -57,16 +57,40 @@ The goal is to reduce manual effort while improving consistency when testing aut
 
 ## 🧾 Scripts
 
-### 🔹 Auth0 Security Tester (React SDK v2.6.0)
+### Auth0 Security Tester (React SDK v2.6.0) 
+[Script](scripts/auth0_test.py)
 
 This script automates multiple security checks against applications using **Auth0 React SDK version 2.6.0**.
 
 **Run example:**
 ```bash
-python3 auth0_test.py \
-  --domain your-domain.auth0.com \
-  --client-id YOUR_CLIENT_ID \
-  --token YOUR_ACCESS_TOKEN
+python3 auth0_test.py --domain your-domain.auth0.com --client-id YOUR_CLIENT_ID --token YOUR_ACCESS_TOKEN
+```
+
+**Example Output:**
+```bash
+============================================================
+SECURITY TEST REPORT
+============================================================
+Test completed at: 2025-12-25T12:00:00
+Target Domain: example.auth0.com
+Client ID: abc123
+
+Vulnerabilities: 5
+Warnings: 1
+Secure: 4
+
+⚠️  VULNERABILITIES FOUND:
+  - Open Redirect: Redirect to https://evil.com was accepted
+  - CORS: Wildcard CORS origin allowed
+  - CSRF: Logout endpoint https://example.com/logout has no CSRF protection
+  - JWT Algorithm: Weak algorithm detected: HS256
+  - Sensitive Data: Possible sensitive data in token: api_key
+
+⚡ WARNINGS:
+  - Token Expiration: Token valid for 48.00 hours
+
+Full report saved to: auth0_security_report_20251225_120000.json
 ```
 
 ## 🛡️ Disclaimer
