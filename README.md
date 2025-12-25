@@ -1,6 +1,13 @@
-# Web Hacking + Bug Bounty Scripts
+# Web Hacking & Bug Bounty Scripts
 
-> A collection of penetration testing and security automation scripts for Auth0, JWT analysis, header validation, and modern web security testing.
+> A curated collection of penetration testing and web security automation scripts.  
+> During my bug bounty and pentesting journey, I developed these tools to automate common security testing tasks, including **Auth0 analysis**, **JWT inspection**, **security header validation**, and **modern web vulnerability testing**.
+
+## Disclaimer
+
+These scripts are intended **for educational and research purposes only**.  
+Use them **only on systems you own or have explicit authorization to test**.  
+Any illegal or unauthorized use is strictly prohibited.
 
 ---
 
