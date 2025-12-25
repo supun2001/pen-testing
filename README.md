@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This repository contains Python-based tools designed to help **security researchers, bug bounty hunters, and developers** automate common and repeatable web security checks.
 
@@ -20,13 +20,13 @@ The goal is to reduce manual effort while improving consistency when testing aut
 - XSS payload generators  
 - Rate limiting & PKCE enforcement tests  
 
-> ⚠️ **Warning:**  
+> **Warning:**  
 > These scripts must only be used on systems you own or have explicit permission to test.  
 > Unauthorized testing is illegal and unethical.
 
 ---
 
-## 🧪 Features
+## Features
 
 - **Auth0 Security Tester**  
   Automated testing for:
@@ -55,7 +55,7 @@ The goal is to reduce manual effort while improving consistency when testing aut
 
 ---
 
-## 🧾 Scripts
+## Scripts
 
 ### Auth0 Security Tester (React SDK v2.6.0) 
 [Script](scripts/auth0_test.py)
@@ -93,25 +93,25 @@ Secure: 4
 Full report saved to: auth0_security_report_20251225_120000.json
 ```
 
-## 🛡️ Disclaimer
+## Disclaimer
 
 - Only use these scripts on systems you own or are authorized to test.
 - This repository is for educational and research purposes only.
 - Do not attempt to exploit or harm third-party systems without permission.
 
-## 📚 Recommended Tools for Use
+## Recommended Tools for Use
 
 - Bug Bounty & Pentesting: Burp Suite, Nmap, Nikto, Sublist3r, Gobuster
 - SOC & Security Analysis: Splunk, ELK Stack, Wireshark, OpenCanary
 - Software & Dev: Python, MERN Stack, Docker, Git
 - Security Concepts: XSS, CSRF, Open Redirect, JWT attacks, PKCE, OAuth 2.0
 
-## 📫 Contact
+## Contact
 
 - Email: supun2001hasanka.com
 - LinkedIn: [supun2001](https://www.linkedin.com/in/supun-hasanka-908741186/)
 - Portfolio: [supunhasanka.tech](https://supunhasanka.tech/)
 
-## 📖 More Labs & Hands-On Practice
+## More Labs & Hands-On Practice
 For additional security labs, automation scripts, and practical exercises, check out my blog: [Blog](https://supunhasanka.tech/blog)
 
