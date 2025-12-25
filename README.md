@@ -12,13 +12,13 @@ The goal is to reduce manual effort while improving consistency when testing aut
 
 ### Included (and Planned) Capabilities
 
-- ✅ Auth0 security testing automation  
-- 🔜 JWT token analyzers  
-- 🔜 HTTP security header checkers  
-- 🔜 Open redirect & CORS testing  
-- 🔜 Session fixation & CSRF testing  
-- 🔜 XSS payload generators  
-- 🔜 Rate limiting & PKCE enforcement tests  
+- Auth0 security testing automation  
+- JWT token analyzers 
+- HTTP security header checkers  
+- Open redirect & CORS testing  
+- Session fixation & CSRF testing  
+- XSS payload generators  
+- Rate limiting & PKCE enforcement tests  
 
 > ⚠️ **Warning:**  
 > These scripts must only be used on systems you own or have explicit permission to test.  
