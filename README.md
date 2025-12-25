@@ -1,4 +1,4 @@
-# 🔐 Auth0 & Web Security Automation Scripts
+# Web Hacking + Bug Bounty Scripts
 
 > A collection of penetration testing and security automation scripts for Auth0, JWT analysis, header validation, and modern web security testing.
 
